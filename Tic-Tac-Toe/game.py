@@ -96,7 +96,23 @@ def play(game, x_player, o_player, print_game=True):
 
 
 if __name__ == '__main__':
+    print('Test case:1')
     x_player = SmartComputerPlayer('X')
     o_player = HumanPlayer('O')
+    t = TicTacToe()
+    play(t, x_player, o_player, print_game=True)
+    print('Test case:2')
+    x_player = SmartComputerPlayer('X')
+    o_player = RandomComputerPlayer('O')
+    t = TicTacToe()
+    play(t, x_player, o_player, print_game=True)
+    print('Test case:3')
+    x_player = SmartComputerPlayer('X')
+    o_player = SmartComputerPlayer('O')
+    t = TicTacToe()
+    play(t, x_player, o_player, print_game=True)
+    print('Test case:4')
+    x_player = RandomComputerPlayer('X')
+    o_player = RandomComputerPlayer('O')
     t = TicTacToe()
     play(t, x_player, o_player, print_game=True)
