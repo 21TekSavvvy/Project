@@ -28,8 +28,6 @@ def computer_guess(x):
             low =guess+1
     print(f'The computer guessed your number, {guess}, correctly!')
 
-computer_guess(10)
-
-
-
-#guess(10)
+userinput = int(input("Enter the range for guessing"))
+computer_guess(userinput)
+#guess(in)
