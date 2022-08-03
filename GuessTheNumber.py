@@ -8,6 +8,6 @@ def guess(x):
         if guess < random_number:
             print('Sorry, guess again. too low')
         elif guess > random_number:
-            print('Sorr, guess again. Too high')
+            print('Sorry, guess again. Too high')
     print('Congrats you guessed the right number!')
 guess(10)
