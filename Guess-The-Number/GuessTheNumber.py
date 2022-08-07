@@ -30,4 +30,5 @@ def computer_guess(x):
 
 userinput = int(input("Enter the range for guessing: "))
 computer_guess(userinput)
+guess(userinput)
 #guess(in)
